@@ -1,12 +1,13 @@
 .section-catalog {
-
 }
 
-.container-catalog {
-
+.container {
 }
 
 .title-catalog {
+display: block;
+margin-left: auto;
+margin-right: auto;
 font-weight: 600;
 font-size: 32px;
 line-height: 1;
@@ -16,15 +17,25 @@ margin-bottom: 24px;
 }
 
 .list-catalog {
-flex-direction: column;
-gap: 20px;
+display: inline;
+gap: 23px;
 margin-bottom: 40px;
 }
 
 .item-catalog {
+display: block;
+margin-left: auto;
+margin-right: auto;
 border: 1px solid rgba(12, 12, 12, 0.05);
 border-radius: 30px;
 background: #f3f3f3;
+align-items: center;
+padding: 28px 24px;
+margin-bottom: 20px
+}
+
+.item-five, .item-six {
+display: none;
 }
 
 .item-catalog-images {
@@ -40,7 +51,7 @@ font-size: 16px;
 line-height: 1.25;
 letter-spacing: -0.02em;
 color: #0c0c0c;
-margin-bottom: 8px;
+margin-bottom: 8px
 }
 
 .catalog-price {
@@ -52,6 +63,9 @@ color: rgba(12, 12, 12, 0.5);
 }
 
 .catalog-button {
+display: block;
+margin-left: auto;
+margin-right: auto;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.29;
@@ -66,32 +80,59 @@ background: #3350e9;
 .catalog-button:hover,
 .catalog-button:focus {
 background-color: #1f3cd4;
+cursor: pointer;
 }
 
 @media (min-width: 768px) {
+.title-catalog {
+font-weight: 600;
+font-size: 48px;
+line-height: 0.92;
+letter-spacing: -0.02em;
+color: #0c0c0c;
+}
+
+
 .list-catalog {
-flex-direction: row;
-gap: 16px;
-row-gap: 32px;
+display: flex;
 flex-wrap: wrap;
+gap: 16px;
 }
 
 .item-catalog {
-width: calc((100% - 16px) / 2);
-border: 1px solid rgba(12, 12, 12, 0.05);
-border-radius: 30px;
-width: 344px;
-height: 414px;
-background: #f3f3f3;
+width: calc((100% / 2) - 16px);
+}
+
+.item-five,
+.item-six {
+display: list-item;
+}
+
+.catalog-button {
+display: none;
 }
 }
 
 @media (min-width: 1280px) {
+.title-catalog {
+font-weight: 600;
+font-size: 48px;
+line-height: 0.92;
+letter-spacing: -0.02em;
+color: #0c0c0c;
+}
+
+.list-catalog {
+display: flex;
+flex-wrap: wrap;
+gap: 23px;
+}
+
 .item-catalog {
-width: calc((100% - 32px) / 3);
-box-shadow: none;
-border: 1px solid rgba(12, 12, 12, 0.05);
-border-radius: 30px;
-background: #f3f3f3;
-    }
+width: calc((100% / 3) - 46px);
+}
+
+.catalog-button {
+display: none;
+}
 }
