@@ -29,16 +29,17 @@
     flex-wrap: wrap;
     
 }
-.contact-us-form {
-    border-radius: 30px;
-    background: #F3F3F3;
-    padding: 48px 28px;
-}
+
+
 .contact-us-form {
 display: flex;
 justify-content: center;
 flex-direction: column;  
+border-radius: 30px;
+    background: #F3F3F3;
+    padding: 48px 28px;
 }
+
 .contact-us-lable {
     padding-bottom: 18px;
 }
@@ -146,20 +147,26 @@ flex-direction: column;
         width: 768px;
         padding: 0 32px;
     }
-    .contact-us-form{
-        padding: 50px 60px;
-    }
-        .contact-us-section {
-            padding-top: 40px;
-            padding-bottom: 40px;
     
-        }
 
     /* ---------Contact Us--------- */
+    
+    .contact-us-section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    
+    }
     .contact-us-title {
     font-size: 48px;
     line-height: 44px;
     letter-spacing: -0.96px;
+    margin-bottom: 40px;
+    }
+        .contact-us-wrap {
+            gap: 40px;
+        }
+    .contact-us-form{
+        padding: 50px 122px;
     }
     .contact-us-text {
         font-size: 16px;
@@ -179,18 +186,14 @@ flex-direction: column;
     font-size: 16px;
     line-height: 20px;
     padding: 16px;
+    
 }
 .button {
     max-width: 160px;
-    
-    background-color: #3350E9;
     padding: 17px 63px;
-    
-    text-align: center;
-    font-size: 18px;
-    font-style: normal;
-    
+    font-size: 14px;
 }
+
 }
 
 @media screen and (min-width: 1280px) {
@@ -198,4 +201,15 @@ flex-direction: column;
         width: 1280px;
         padding: 0 65px;
     }
+
+    /* --------Contact Us -------- */
+    .contact-us-wrap {
+        flex-wrap: nowrap;
+    }
+        .contact-us-form {
+            padding: 50px 60px;
+        }
+        .contact-us-image {
+            min-width: 530px;
+        }
 }
