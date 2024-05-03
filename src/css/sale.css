@@ -185,14 +185,18 @@
 .show-tablet {
   display: none;
 }
+
 /* Tablet */ 
 @media screen and (min-width: 768px) and (max-width: 1280px) {
   .show-tablet {
     display: block;
   }
   .sale-title{
-    padding-bottom: 40px;
-    margin-bottom: 0;
+      padding-bottom: 40px;
+      margin-bottom: 0;
+      font-size: 48px;
+      line-height: 44px; 
+      letter-spacing: -0.96px;
   }
   .container-commander {
     padding: 60px;
@@ -262,5 +266,37 @@
 }
 /* desktop */
 @media screen and (min-width: 1280px) {
-  
+  .sale-container{
+    padding: 0 65px;
+    margin: 0;
+  }
+  .sale-title{
+    padding-bottom: 40px;
+  }
+  .show-desktop{
+  display: flex;
+  flex-direction: row;
+margin-right: 0;}  
+.watch-img{
+  margin-right: 20px;
+}
+.centralimage{
+  width: 428px;
+  margin-right: 40px;
+}
+.bigwatch{
+  width: 100%;
+height: 558px;
+}
+.bigwatch img {
+  width: 100%;
+  height: 100%;
+}
+.bigwatch{
+  padding: 80px 50px;}
+
+.container-commander{
+  width: 100%;
+  height: 558px;
+}
 }
