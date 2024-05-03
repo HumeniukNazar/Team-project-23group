@@ -266,6 +266,9 @@
 }
 /* desktop */
 @media screen and (min-width: 1280px) {
+  .show-tablet{
+    display: none;
+  }
   .sale-container{
     padding: 0 65px;
     margin: 0;
@@ -298,5 +301,11 @@ height: 558px;
 .container-commander{
   width: 100%;
   height: 558px;
+}
+.carbon{
+  width: 389px;
+}
+.sale-txt{
+  max-width: 410px;
 }
 }
