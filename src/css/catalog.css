@@ -1,38 +1,39 @@
 .section-catalog {
 max-width: 320px;
+margin: auto;
+align-items: center;
 }
 
 .container {
+margin-top: 60px;
+margin-bottom: 60px;
 }
 
 .title-catalog {
 display: block;
 margin-left: auto;
 margin-right: auto;
+margin-bottom: 20px;
 font-weight: 600;
 font-size: 32px;
 line-height: 1;
 letter-spacing: -0.02em;
 color: #0c0c0c;
-margin-bottom: 24px;
 }
 
 .list-catalog {
 display: inline;
-gap: 23px;
-margin-bottom: 40px;
 }
 
 .item-catalog {
 display: block;
-margin-left: auto;
-margin-right: auto;
+gap: 20px;
 border: 1px solid rgba(12, 12, 12, 0.05);
 border-radius: 30px;
 background: #f3f3f3;
 align-items: center;
-padding: 28px 24px;
-margin-bottom: 20px
+padding: 20px;
+margin-bottom: 20px;
 }
 
 .item-five, .item-six {
@@ -42,6 +43,7 @@ display: none;
 .item-catalog-images {
 position: relative;
 overflow: hidden;
+background-color: transparent;
 }
 
 .container-text {}
@@ -67,6 +69,7 @@ color: rgba(12, 12, 12, 0.5);
 display: block;
 margin-left: auto;
 margin-right: auto;
+margin-top: 40px;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.29;
@@ -93,13 +96,13 @@ max-width: 1279px;
 display: block;
 margin-left: auto;
 margin-right: auto;
+margin-bottom: 40px;
 font-weight: 600;
 font-size: 48px;
 line-height: 0.92;
 letter-spacing: -0.02em;
 color: #0c0c0c;
 }
-
 
 .list-catalog {
 display: flex;
@@ -129,6 +132,7 @@ display: none;
 display: block;
 margin-left: auto;
 margin-right: auto;
+margin-bottom: 40px;
 font-weight: 600;
 font-size: 48px;
 line-height: 0.92;
