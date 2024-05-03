@@ -50,6 +50,7 @@
 
 .modal {
   background-image: url(/img/images/modal-fon-mob-1x.png);
+  background-position: center;
   position: fixed;
   top: 0;
   right: 0;
