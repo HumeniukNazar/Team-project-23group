@@ -1,43 +1,79 @@
-<div class="sale-container">
+<section class="sale-container">
   <h2 class="sale-title">Sale</h2>
-  <div class="watch-img">
-    <div>
-      <img
-        src="../img/images/1-watch-mob.png"
-        alt="smartwatch-frontal"
-        class="small-watch"
-      />
+  <article class="sale-images">
+    <div class="watch-img">
+      <div class="div-small-watch">
+        <picture  class="small-watch">          
+          <source
+          srcset="../img/images/small-pic-one-desktop-x3.png"
+          media="(min-width: 1280px)"/> 
+          <source srcset="../img/images/small-pic-one-tablet.png"
+          media="(min-width: 768px)"/>
+
+          <img
+          src="../img/images/1-watch-mob.png"
+          alt="smartwatch-frontal"
+         
+        /></picture>
+      </div>
+      <div class="div-small-watch">
+<picture>        
+  <source
+  srcset="../img/images/small-pic-two-desktop-x3.png"
+  media="(min-width: 1280px)"/>
+  <source srcset="../img/images/small-pic-two-tablet.png"
+  media="(min-width: 768px)"/>
+<img
+          src="../img/images/2-watch-mob.png"
+          alt="smartwatch-hours"
+          class="small-watch"
+        /></picture>
+
+      </div>
+      <div class="div-small-watch">
+        <picture>           
+          <source
+          srcset="../img/images/small-pic-three-desktop-x3.png"
+          media="(min-width: 1280px)"/>       
+          <source srcset="../img/images/small-pic-three-tablet.png"
+          media="(min-width: 768px)"/>
+
+          <img
+          src="../img/images/3-watch-mob.png"
+          alt="smartwatch-left-side"
+          class="small-watch"
+        /></picture>
+
+      </div>
+      <div class="div-small-watch">
+        <picture>           
+          <source
+          srcset="../img/images/small-pic-four-desktop-x3.png"
+          media="(min-width: 1280px)"/>
+          <source srcset="../img/images/small-pic-four-tablet.png"
+          media="(min-width: 768px)"/>
+
+          <img
+          src="../img/images/4-watch-mob.png"
+          alt="smartwatch-back"
+          class="small-watch"
+        /></picture>
+       
+      </div>
     </div>
-    <div>
-      <img
-        src="../img/images/2-watch-mob.png"
-        alt="smartwatch-hours"
-        class="small-watch"
-      />
+    <div class="centralimage">
+      <picture class="bigwatch">
+        <source
+          srcset="../img/images/watch-tablet.png"
+          media="(min-width: 768px)"
+        />
+        <source srcset="../img/images/watch-desktop.png"
+        media="(min-width: 1280px)"/>
+        <img src="../img/images/watch-mobile.png" alt="ten-to-two" />
+      </picture>
     </div>
-    <div>
-      <img
-        src="../img/images/3-watch-mob.png"
-        alt="smartwatch-left-side"
-        class="small-watch"
-      />
-    </div>
-    <div>
-      <img
-        src="../img/images/4-watch-mob.png"
-        alt="smartwatch-back"
-        class="small-watch"
-      />
-    </div>
-  </div>
-  <div class="centralimage">
-    <img
-      src="../img/images/bigwatch-mob.png"
-      alt="ten-to-two"
-      class="bigwatch"
-    />
-  </div>
-  <div class="container-commander">
+  </article>
+  <article class="container-commander">
     <h3 class="carbon">MARQ&#174; Commander (Gen 2) - Carbon Edition</h3>
     <p class="sale-par">Product tag: 706587</p>
     <div class="euro">
@@ -57,25 +93,14 @@
         complemented by buttons that can be used in any conditions.
       </p>
     </div>
-    <div class="grid-sale">
-      <div class="fused">
-        <p class="element">Fused carbon fiber</p>
-      </div>
-      <div class="grade">
-        <p class="element">Grade-5 Titanuim</p>
-      </div>
-      <div class="athlete">
-        <p class="element">Athlete</p>
-      </div>
-      <div class="golfer">
-        <p class="element">Golfer</p>
-      </div>
-      <div class="commander">
-        <p class="element">Commander</p>
-      </div>
-      <div class="andenturer">
-        <p class="element">Adventurer</p>
-      </div>
+    <div class="tags">
+      <span class="tag-item">Fused carbon fiber</span
+      ><span class="tag-item">Grade-5 Titanuim</span>
+      <span class="tag-item">Athlete</span>
+      <br class="show-tablet" />
+      <span class="tag-item">Golfer</span>
+      <span class="tag-item">Commander</span
+      ><span class="tag-item">Adventurer</span>
     </div>
-  </div>
-</div>
+  </article>
+</section>
