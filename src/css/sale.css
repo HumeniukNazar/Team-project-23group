@@ -190,6 +190,10 @@
   .show-tablet {
     display: block;
   }
+  .sale-title{
+    padding-bottom: 40px;
+    margin-bottom: 0;
+  }
   .container-commander {
     padding: 60px;
     align-items: flex-start;
@@ -197,8 +201,8 @@
   .sale-images {
     display: flex;
     align-items: flex-start;
-    gap: 20px;
     flex-direction: row;
+    margin-bottom: 40px;
   }
   .watch-img {
     display: flex;
@@ -206,15 +210,55 @@
     align-items: flex-start;
     justify-content: flex-start;
     gap: 10px;
+    margin-bottom: 0;
   }
+  .bigwatch{
+    padding: 80px 112px;
+    border-radius: 50px;
+    max-width: 552px;
+        height: 558px;
+  }
+
   .div-small-watch {
-    padding: 18px;
+    padding: 16px 18px;
     border: 1px solid rgba(12, 12, 12, 0.05);
     background: #f3f3f3;
+    border-radius: 20px;
+    max-height: 132px;
+    width: 132px;
+  }
+  .div-small-watch img {
+    max-height: 100px;
   }
   .centralimage {
     width: 100%;
+    margin-bottom: 0;
   }
+  .carbon{
+    font-size: 32px;
+    line-height: 36px; 
+    letter-spacing: -0.64px;
+  }
+  .euro{
+    padding-bottom: 30px;
+  }
+  .yes{
+    font-size: 20px;
+    line-height: 20px; 
+    letter-spacing: -0.4px;
+  }
+  .sale-txt{
+    font-size: 16px;
+    line-height: 20px; 
+    letter-spacing: -0.32px;
+    padding-bottom: 40px;
+    max-width: 584px;
+  }
+  .tag-item{
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
 }
 /* desktop */
 @media screen and (min-width: 1280px) {
