@@ -79,12 +79,14 @@ border-radius: 16px;
 width: 160px;
 height: 48px;
 background: #3350e9;
+border-color: transparent;
 }
 
 .catalog-button:hover,
 .catalog-button:focus {
 background-color: #1f3cd4;
 cursor: pointer;
+border-color: transparent;
 }
 
 @media (min-width: 768px) {
