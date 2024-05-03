@@ -1,3 +1,7 @@
+* {
+  font-family: var(--font-family);
+}
+
 h1,
 h2,
 h3,
@@ -58,6 +62,14 @@ img {
   width: 375px;
   padding: 0 20px;
   margin: 0 auto;
+}
+
+:root {
+  --font-family: 'Gilroy', sans-serif;
+  --main: #0c0c0c;
+  --accent: #3350e9;
+  --background: #fbfbfb;
+  --cards: #f3f3f3;
 }
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
