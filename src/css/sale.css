@@ -260,6 +260,11 @@ background: #F3F3F3;
   }
   .sale-title {
     padding-bottom: 40px;
+    font-size: 48px;
+    line-height: 0.9; 
+    letter-spacing: -0.02em;
+    margin-bottom: 0px;
+    padding-left: 0px;
   }
   .show-desktop {
     display: inline-flex;
@@ -310,13 +315,48 @@ background: #F3F3F3;
   }
 
   .container-commander {
+    align-items: flex-start;
     max-width: 530px;
     width: 100%;
-  }
+    padding-bottom: 0px;
+    padding: 60px 60px 50px;  }
   .carbon {
     width: 389px;
+    font-size: 32px;
+    line-height: 1.125; 
+    letter-spacing: -0.02em;
+    margin-bottom: 0px;
+  }
+  .euro-yes{
+    width: 78px;
+    height: 32px;
+  }
+  .euro-no{
+    padding: 0px;
+    width: 36px;
+  }
+  .yes{
+    font-size: 20px;
+    line-height: 1.0; 
+    letter-spacing: -0.02em;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
   }
   .sale-txt {
     max-width: 410px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -0.02em;  
+    padding-bottom: 40px;
+  }
+ 
+  .tag-item{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
   }
 }
