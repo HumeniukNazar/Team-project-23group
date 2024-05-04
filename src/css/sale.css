@@ -283,6 +283,9 @@
   .watch-img {
     margin-right: 20px;
   }
+  .div-small-watch img {
+    max-height: 100px;
+  }
   .centralimage {
     width: 428px;
     margin-right: 40px;
