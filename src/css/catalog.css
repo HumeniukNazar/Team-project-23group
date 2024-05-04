@@ -1,10 +1,11 @@
 :root {
     --color-main: #0c0c0c;
-    --color-black: rgba(12, 12, 12, 0.5)
+    --color-black: rgba(12, 12, 12, 0.5);
     --color-white-one: #f3f3f3;
     --color-white-two: #fbfbfb;
     --color-blue: #3350e9;
     --color-blue-two: #1f3cd4;
+    --color-fon-item: #f3f3f3;
   }
 
 .conteiner-catalog {
@@ -35,7 +36,7 @@ display: inline;
 display: block;
 border: 1px solid var(--color-black);
 border-radius: 30px;
-background: var(--color-white-one);
+background: var(--color-fon-item);
 align-items: center;
 margin-bottom: 20px;
 }
