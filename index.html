@@ -10,7 +10,7 @@
       integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script type="module" crossorigin src="/Team-project-23group/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Team-project-23group/assets/index-e95b22bd.css">
+    <link rel="stylesheet" href="/Team-project-23group/assets/index-7725ebd3.css">
   </head>
   <body>
     <header class="header">
@@ -100,7 +100,83 @@
       
       
       
-      
+      <section id="contact-us" class="contact-us-section">
+  <div class="container contact-us-contain">
+    <h2 class="contact-us-title">Contact Us</h2>
+    <div class="contact-us-wrap">
+      <form class="contact-us-form">
+        <p class="contact-us-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <label class="contact-us-lable">
+          <input
+            class="contact-us-input"
+            type="text"
+            name="user-name"
+            placeholder="Name"
+            required
+        /></label>
+        <label class="contact-us-lable">
+          <input
+            class="contact-us-input"
+            type="email"
+            name="user-email"
+            placeholder="Email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            title="Email address"
+            required
+        /></label>
+        <label class="contact-us-lable">
+          <input
+            class="contact-us-input"
+            type="tel"
+            name="user-phone"
+            placeholder="+380"
+            pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+            title="(+380-XX-XXX-XX-XX)"
+            value="+380"
+            size="17"
+            required
+        /></label>
+        <label class="contact-us-lable-comment">
+          <textarea
+            name="user-comment"
+            id="user-comment"
+            placeholder="Comment"
+            class="contact-us-textarea"
+            minlength="2"
+            required
+          ></textarea>
+        </label>
+        <button type="submit" class="button">Send</button>
+      </form>
+
+      <picture>
+        <source
+          srcset="/Team-project-23group/assets/contact-us-1x-f5a29b04.png 1x, /Team-project-23group/assets/contact-us-2x-b2c323a5.png 2x"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="/Team-project-23group/assets/contact-us-tablet-ec0cc729.png 1x, /Team-project-23group/assets/contact-us-tablet-2x-b7451464.png 2x"
+          media="(min-width: 768px) and (max-width: 1280px)"
+        />
+        <source
+          srcset="/Team-project-23group/assets/contact-us-mob-c5451b25.png 1x, /Team-project-23group/assets/contact-us-mob-2x-86d75c88.png 2x"
+          media="(max-width: 767px)"
+        />
+        <img
+          class="contact-us-image"
+          src="/Team-project-23group/assets/contact-us-tablet-ec0cc729.png"
+          alt="Black Watch"
+          width="704"
+          height="556"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+
     </main>
     
 
