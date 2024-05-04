@@ -1,11 +1,10 @@
 :root {
-    --color-main: #0c0c0c;
-    --color-black: rgba(12, 12, 12, 0.5);
+    --color-main: #0c0c0c; 
     --color-white-one: #f3f3f3;
     --color-white-two: #fbfbfb;
     --color-blue: #3350e9;
     --color-blue-two: #1f3cd4;
-    --color-fon-item: #f3f3f3;
+    --color-fon-item: #f3f3f3;A   
   }
 
 .conteiner-catalog {
@@ -24,7 +23,6 @@ font-weight: 600;
 font-size: 32px;
 line-height: 1;
 letter-spacing: -0.02em;
-background: var(--color-white-one);
 margin-bottom: 24px;
 }
     
@@ -34,7 +32,7 @@ display: inline;
     
 .item-catalog {
 display: block;
-border: 1px solid var(--color-black);
+border: 1px solid rgba(12, 12, 12, 0.05);
 border-radius: 30px;
 background: var(--color-fon-item);
 align-items: center;
@@ -70,7 +68,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.29;
 letter-spacing: -0.02em;
-color: var(--color-black);
+color: rgba(12, 12, 12, 0.5);
 }
     
 .catalog-button {
@@ -128,6 +126,7 @@ gap: 16px;
 .item-catalog {
 width: calc((100% / 2) - 16px);
 margin-bottom: 0px;
+border-color: transparent;
 }
     
 .item-five,
@@ -175,6 +174,7 @@ gap: 16px;
 .item-catalog {
 width: calc((100% / 3) - 32px);
 margin-bottom: 0px;
+border-color: transparent;
 }
 
 .item-catalog-images {
