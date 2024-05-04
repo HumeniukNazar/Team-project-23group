@@ -1,7 +1,7 @@
 :root {
     --color-main: #0c0c0c;
     --color-black: rgba(12, 12, 12, 0.5)
-    --color-white: #f3f3f3;
+    --color-white-one: #f3f3f3;
     --color-white-two: #fbfbfb;
     --color-blue: #3350e9;
     --color-blue-two: #1f3cd4;
@@ -23,7 +23,7 @@ font-weight: 600;
 font-size: 32px;
 line-height: 1;
 letter-spacing: -0.02em;
-background: var(--color-white);
+background: var(--color-white-one)
 margin-bottom: 24px;
 }
     
