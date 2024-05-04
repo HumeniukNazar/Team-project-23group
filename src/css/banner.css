@@ -1,0 +1,43 @@
+       .container-ad {
+           min-width: 320px;
+           padding: 60px 29px 0px 28px;
+           display: flex;
+           flex-direction: column;
+       }
+
+       .ad-wrap {
+          
+       }
+
+       .ad-text{
+        font-family: var(--font-family);
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 32px;
+            letter-spacing: -0.02em;
+            text-align: left;
+           margin-bottom: 28px;
+       }
+
+
+
+       .ad-link-wrap {
+           display: flex;
+           justify-content: space-between;
+           align-items: end;
+       }
+
+
+       .ad-link {
+           font-family: var(--font-family);
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 18px;
+            text-align: center;
+           color: var(--main);
+       }
+
+       .ad-link:hover,
+       .ad-link:focus {
+           color: var(--accent);
+       }
