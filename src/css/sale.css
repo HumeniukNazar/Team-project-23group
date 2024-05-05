@@ -39,9 +39,9 @@
   width: 100%;
   min-height: 54px;
   border-radius: 16px;
-border: 1px solid rgba(12, 12, 12, 0.05);
-
-background: #F3F3F3;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  padding: 13px 14px;
+  background: #F3F3F3;
 }
 .centralimage {
   display: flex;
@@ -221,6 +221,12 @@ background: #F3F3F3;
     border-radius: 20px;
     max-height: 132px;
     width: 132px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 132px;
+    height: 132px;
   }
   .div-small-watch img {
     max-height: 100px;
@@ -290,8 +296,12 @@ background: #F3F3F3;
     gap: 10px;
   }
   .div-small-watch {
-    width: 100%;
-    height: 100%;}
+    width: 132px;
+    height: 132px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
 
   .centralimage {
     max-width: 428px;
@@ -308,7 +318,7 @@ background: #F3F3F3;
     max-width: 100%;
     /* height: 100px; */
     border-radius: 20px;
-    /* padding: 16px 18px; */
+    padding: 16px 18px;
     background: #F3F3F3;  
 }
   .bigwatch {
