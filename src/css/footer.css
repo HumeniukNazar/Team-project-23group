@@ -122,9 +122,12 @@
     letter-spacing: -0.02em;
     text-align: center;
     color: #fbfbfb;
-    width: 279px
+    width: 279px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
-
 .footer-menu-wrap {
     display: flex;
     justify-content: space-between;
