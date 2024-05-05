@@ -3,7 +3,7 @@
 .sale-container {
   display: flex;
   flex-direction: column;
-  
+  margin-bottom: 60px;
 }
 .mobile{
   display: flex;
@@ -176,6 +176,9 @@
 @media screen and (min-width: 768px) and (max-width: 1280px) {
   .show-tablet {
     display: block;
+  }
+  .sale-container {
+    margin-bottom: 80px;
   }
   .sale-title {
     padding-bottom: 40px;
