@@ -6,10 +6,13 @@
     --color-blue-two: #1f3cd4;
   }
 
+.section-catalog {
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
 .conteiner-catalog {
 min-width: 375px;
-margin-top: 60px;
-margin-bottom: 60px;
 padding: 0px 20px;
 }
     
@@ -113,10 +116,13 @@ min-height: 262px;
 }
 
 @media screen and (min-width: 768px) {
+.section-catalog {
+padding-top: 40px;
+padding-bottom: 40px;
+}
+
 .conteiner-catalog {
 padding: 0px 32px;
-margin-top: 80px;
-margin-bottom: 80px;
 }
     
 .title-catalog {
@@ -160,11 +166,14 @@ display: none;
 }
     
 @media screen and (min-width: 1280px) {
+.section-catalog {
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
 .conteiner-catalog {
 min-width: 1280px;
 padding: 0px 65px;
-margin-top: 100px;
-margin-bottom: 100px;
 }
 
 .title-catalog {
