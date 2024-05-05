@@ -7,10 +7,10 @@
   }
 
 .conteiner-catalog {
-min-width: 320px;
-margin: auto;
-align-items: center;
-padding: 60px 20px 60px 20px;
+min-width: 375px;
+margin-top: 60px;
+margin-bottom: 60px;
+padding: 0px 20px;
 }
     
 .container {
@@ -114,7 +114,9 @@ min-height: 262px;
 
 @media screen and (min-width: 768px) {
 .conteiner-catalog {
-padding: 80px 32px 0px 32px;
+padding: 0px 32px;
+margin-top: 80px;
+margin-bottom: 80px;
 }
     
 .title-catalog {
@@ -160,8 +162,9 @@ display: none;
 @media screen and (min-width: 1280px) {
 .conteiner-catalog {
 min-width: 1280px;
-align-items: center;
-padding: 100px 65px 0px 65px;
+padding: 0px 65px;
+margin-top: 100px;
+margin-bottom: 100px;
 }
 
 .title-catalog {
