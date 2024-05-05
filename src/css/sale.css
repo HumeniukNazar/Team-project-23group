@@ -146,6 +146,12 @@ background: #F3F3F3;
   letter-spacing: -0.02em;
   padding-bottom: 28px;
 }
+.tags{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
 
 .tag-item {
   display: inline-block;
@@ -159,8 +165,7 @@ background: #F3F3F3;
   border-radius: 8px;
   border: 1px solid rgba(251, 251, 251, 0.2);
   text-align: center;
-  margin-right: 8px;
-  margin-top: 8px;
+  /* margin-top: 8px; */
 }
 
 .show-tablet {
@@ -243,6 +248,9 @@ background: #F3F3F3;
     padding-bottom: 40px;
     max-width: 584px;
   }
+  .tags{
+    width: 398px;
+  }
   .tag-item {
     font-size: 14px;
     line-height: 1.29;
@@ -256,7 +264,7 @@ background: #F3F3F3;
   }
   .sale-container {
     padding: 0 65px;
-    margin: 0;
+    margin: 0px 0px 100px;
   }
   .sale-title {
     padding-bottom: 40px;
@@ -294,12 +302,13 @@ background: #F3F3F3;
     max-height: 558px;
     display: flex;
     flex-direction: row;
+    margin-bottom: 0px;
   }
   .small-watch{
     max-width: 100%;
     /* height: 100px; */
     border-radius: 20px;
-    padding: 16px 18px;
+    /* padding: 16px 18px; */
     background: #F3F3F3;  
 }
   .bigwatch {
@@ -319,7 +328,8 @@ background: #F3F3F3;
     max-width: 530px;
     width: 100%;
     padding-bottom: 0px;
-    padding: 60px 60px 50px;  }
+    padding: 60px 60px 50px;  
+    max-height: 558px;}
   .carbon {
     width: 389px;
     font-size: 32px;
