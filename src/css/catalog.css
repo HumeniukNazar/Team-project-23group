@@ -66,6 +66,10 @@
   letter-spacing: -0.02em;
   color: var(--color-main);
   margin-bottom: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 280px;
 }
 
 .catalog-price {
@@ -185,6 +189,10 @@
   }
 
   .container-text {
+  }
+
+  .container-text-title {
+    width: 304px;
   }
 
   .catalog-button {
