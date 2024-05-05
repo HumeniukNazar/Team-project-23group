@@ -1,7 +1,14 @@
 .footer {
-    padding: 40px 28px 28px 28px;
+   
+   
+    
+}
+
+.footer-container {
+  padding-top: 40px;
+  padding-bottom: 28px; 
     background: #0c0c0c;
-    border-radius: 30px;
+   border-radius: 30px;
 }
 
 .footer-logo-wrap {
@@ -209,7 +216,7 @@
 
 
 @media screen and (min-width: 768px) {
-    .footer { 
+    .footer-container { 
         padding: 40px 40px 28px 40px;
 }
     .footer-logo-wrap {
