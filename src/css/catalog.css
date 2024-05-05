@@ -1,158 +1,206 @@
-.section-catalog {
-    max-width: 320px;
-    margin: auto;
-    align-items: center;
-    }
+:root {
+    --color-main: #0c0c0c;
+    --color-white: #fbfbfb;
+    --color-fon-item: #f3f3f3;
+    --color-blue: #3350e9;
+    --color-blue-two: #1f3cd4;
+  }
+
+.conteiner-catalog {
+min-width: 320px;
+margin: auto;
+align-items: center;
+padding: 60px 20px 60px 20px;
+}
     
-    .container {
-    margin-top: 60px;
-    margin-bottom: 60px;
-    }
+.container {
+}
     
-    .title-catalog {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 1;
-    letter-spacing: -0.02em;
-    color: #0c0c0c;
-    }
+.title-catalog {
+display: block;
+font-weight: 600;
+font-size: 32px;
+line-height: 1;
+letter-spacing: -0.02em;
+margin-bottom: 24px;
+}
     
-    .list-catalog {
-    display: inline;
-    }
+.list-catalog {
+display: inline;
+}
     
-    .item-catalog {
-    display: block;
-    gap: 20px;
-    border: 1px solid rgba(12, 12, 12, 0.05);
-    border-radius: 30px;
-    background: #f3f3f3;
-    align-items: center;
-    padding: 20px;
-    margin-bottom: 20px;
-    }
+.item-catalog {
+display: block;
+gap: 20px;
+border: 1px solid rgba(12, 12, 12, 0.05);
+border-radius: 30px;
+background: var(--color-fon-item);
+align-items: center;
+margin-bottom: 20px;
+}
     
-    .item-five, .item-six {
-    display: none;
-    }
+.item-five, .item-six {
+display: none;
+}
     
-    .item-catalog-images {
-    position: relative;
-    overflow: hidden;
-    background-color: transparent;
-    }
+.item-catalog-images {
+position: relative;
+overflow: hidden;
+background-color: transparent;
+padding: 24px 28px 10px 28px;
+}
+
+.catalog-image {
+min-width: 279px;
+min-height: 262px;
+}
+
+.container-text {
+padding: 0px 28px 24px 28px;
+}
+
+.container-text-title {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: -0.02em;
+color: var(--color-main);
+margin-bottom: 8px;
+}
     
-    .container-text {}
+.catalog-price {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+color: rgba(12, 12, 12, 0.5);
+}
     
-    .container-text-title {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: -0.02em;
-    color: #0c0c0c;
-    margin-bottom: 8px
-    }
+.catalog-button {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 40px;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.29;
+text-align: center;
+color: var(--color-white);
+border-radius: 16px;
+width: 160px;
+height: 48px;
+background: var(--color-blue);
+border-color: transparent;
+}
     
-    .catalog-price {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    color: rgba(12, 12, 12, 0.5);
-    }
+.catalog-button:hover,
+.catalog-button:focus {
+background-color: var(--color-blue-two);
+cursor: pointer;
+border-color: transparent;
+}
     
-    .catalog-button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.29;
-    text-align: center;
-    color: #fbfbfb;
-    border-radius: 16px;
-    width: 160px;
-    height: 48px;
-    background: #3350e9;
-    border-color: transparent;
-    }
+@media screen and (min-width: 320px) and (max-width: 374px) {
+.item-catalog {
+width: 335px;
+height: 364px;
+}
+
+.catalog-image {
+min-width: 279px;
+min-height: 262px;
+}
+}
+
+@media screen and (min-width: 768px) {
+.conteiner-catalog {
+padding: 80px 32px 0px 32px;
+}
     
-    .catalog-button:hover,
-    .catalog-button:focus {
-    background-color: #1f3cd4;
-    cursor: pointer;
-    border-color: transparent;
-    }
+.title-catalog {
+display: block;
+margin-bottom: 40px;
+font-weight: 600;
+font-size: 48px;
+line-height: 0.92;
+letter-spacing: -0.02em;
+color: var(--color-main);
+}
     
-    @media (min-width: 768px) {
-    .section-catalog {
-    max-width: 1279px;
-    }
+.list-catalog {
+display: flex;
+flex-wrap: wrap;
+gap: 16px;
+}
     
-    .title-catalog {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 0.92;
-    letter-spacing: -0.02em;
-    color: #0c0c0c;
-    }
+.item-catalog {
+width: calc((100% / 2) - 16px);
+margin-bottom: 16px;
+min-width: 344px;
+min-height: 414px;
+}
     
-    .list-catalog {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-    }
+.item-five,
+.item-six {
+display: list-item;
+}
+
+.item-catalog-images {
+}
+
+.container-text {
+
+}
+
+.catalog-button {
+display: none;
+}
+}
     
-    .item-catalog {
-    width: calc((100% / 2) - 16px);
-    }
+@media screen and (min-width: 1280px) {
+.conteiner-catalog {
+min-width: 1280px;
+align-items: center;
+padding: 100px 65px 0px 65px;
+}
+
+.title-catalog {
+display: block;
+margin-bottom: 40px;
+font-weight: 600;
+font-size: 48px;
+line-height: 0.92;
+letter-spacing: -0.02em;
+color: var(--color-main);
+}
+
+.list-catalog {
+min-width: 1210px;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+gap: 16px;
+}
     
-    .item-five,
-    .item-six {
-    display: list-item;
-    }
-    
-    .catalog-button {
-    display: none;
-    }
-    }
-    
-    @media (min-width: 1280px) {
-    .section-catalog {
-    }
-    
-    .title-catalog {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 0.92;
-    letter-spacing: -0.02em;
-    color: #0c0c0c;
-    }
-    
-    .list-catalog {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 23px;
-    }
-    
-    .item-catalog {
-    width: calc((100% / 3) - 46px);
-    }
-    
-    .catalog-button {
-    display: none;
-    }
-    }
+.item-catalog {
+width: calc((100% / 3) - 32px);
+margin-bottom: 16px;
+min-width: 368px;
+min-height: 414px;
+}
+
+.item-catalog-images {
+}
+
+.catalog-image {
+min-width: 304px;
+min-height: 312px;
+}
+
+.container-text {
+}
+
+.catalog-button {
+display: none;
+}
+}
