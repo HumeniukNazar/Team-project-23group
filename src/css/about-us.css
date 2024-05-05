@@ -69,6 +69,10 @@
   justify-content: center;
   text-align: center;
 }
+.section-abouts-link:hover,
+.section-abouts-link:focus {
+  background-color: var(--button-hover);
+}
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .section-abouts-icon {
