@@ -1,43 +1,101 @@
-       .container-ad {
-           min-width: 320px;
-           padding: 60px 29px 0px 28px;
-           display: flex;
-           flex-direction: column;
-       }
+     .advertisment {}
 
-       .ad-wrap {
-          
-       }
+     .container-ad {
+         min-width: 320px;
+         display: flex;
+         flex-direction: column;
+        background-color: #0C0C0C;
+            background-image: url(../img/images/choose-your-story-mob-2x.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+     }
 
-       .ad-text{
+     /*----.ad-wrap {
+        padding: 72px 0;
+            background-color: #0C0C0C;
+            background-image: url(../img/images/choose-your-story-mob-2x.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+     }
+            @media screen and (-webkit-min-device-pixel-ratio: 2),
+                (min-resolution: 2dppx),
+                (min-resolution: 192dpi) {
+                    .ad-wrap {
+                        background-image: url(../img/images/choose-your-story-mob-2x.png);
+                    }
+                }
+*/
+     .ad-text {
+         font-family: var(--font-family);
+         font-size: 32px;
+         font-weight: 600;
+         line-height: 32px;
+         letter-spacing: -0.02em;
+         text-align: left;
+         margin-bottom: 28px;
+         width:279px;
+     }
+
+     .ad-text-span {
+        color: #FBFBFB80;
+     }
+
+     .ad-link-wrap {}
+
+     .ad-link {
         font-family: var(--font-family);
-            font-size: 32px;
-            font-weight: 600;
-            line-height: 32px;
-            letter-spacing: -0.02em;
-            text-align: left;
-           margin-bottom: 28px;
-       }
-
-
-
-       .ad-link-wrap {
-           display: flex;
-           justify-content: space-between;
-           align-items: end;
-       }
-
-
-       .ad-link {
-           font-family: var(--font-family);
             font-size: 14px;
             font-weight: 500;
             line-height: 18px;
             text-align: center;
-           color: var(--main);
-       }
+            color: #FBFBFB;
+     }
 
-       .ad-link:hover,
-       .ad-link:focus {
-           color: var(--accent);
-       }
+
+     @media screen and (min-width: 768px) {
+
+        .container-ad {
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 80px 32px 0px 32px;
+                background-color: #0C0C0C;
+                    background-image: url(../img/images/choose-your-story-tablet-2x.png);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+            }
+        
+            .ad-text {
+                width: 576px;
+            }
+     }
+/*--.ad-wrap {
+    padding: 112px 0;
+    background-color: #0C0C0C;
+    background-image:  url(../img/images/choose-your-story-tablet-2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*/
+
+
+     @media screen and (min-width: 1280px) {
+         .ad-container {
+             width: 1150px;
+             height: 500px;
+             padding: 100px 65px 0px 65px;
+         }
+.ad-wrap {
+        background-color: #2e2f42;
+        background-image: url(../img/images/choose-your-story-tablet-2x.png);
+        max-width: 1150px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin: 0 auto;
+        background-size: cover;
+    }
+}
