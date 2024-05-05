@@ -27,7 +27,6 @@
 .contact-us-text {
     font-family: var(--font-family);
     color: var(--contact-us-text);
-    font-family: Gilroy;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -46,7 +45,7 @@
 .contact-us-form {
     display: flex;
     justify-content: center;
-    flex-direction: column;  
+    flex-direction: column; 
     border-radius: 30px;
     background: var(--cards);
     padding: 48px 28px;
