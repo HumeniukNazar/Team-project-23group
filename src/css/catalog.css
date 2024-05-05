@@ -144,7 +144,11 @@
 
   .item-catalog-images {
   }
-
+  
+ .catalog-image {
+ width: 280px;
+ height: 312px;
+}
   .container-text {
   }
 
