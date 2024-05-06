@@ -13,6 +13,10 @@
   --background-img: lightgray;
 }
 
+body {
+  background-color: #fbfbfb;
+}
+
 h1,
 h2,
 h3,
