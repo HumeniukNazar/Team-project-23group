@@ -6,7 +6,6 @@
     display: flex;
     flex-direction: column;
     min-width: 320px;
-    min-height: 
 }
 
 .ad-backgroud {
@@ -70,7 +69,7 @@
 @media screen and (min-width: 320px) and (max-width: 374px) {
     .container-ad {
         width: 335px;
-        min-height: 363px;
+        height: 363px;
     }
                         .link-wrap:hover,
                         .link-wrap:focus {
@@ -93,7 +92,7 @@
     }
 
     .ad-text {
-        max-width: 576px;
+        width: 576px;
         font-size: 48px;
         line-height: 0.96;
         letter-spacing: -0.02em;
@@ -125,7 +124,7 @@
     }
 
     .ad-text {
-        max-width: 690px;
+        width: 690px;
         line-height: 0.94;
         letter-spacing: -0.02em;
     }
