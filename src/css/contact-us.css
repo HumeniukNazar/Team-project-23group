@@ -1,7 +1,13 @@
 .contact-us-section {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  margin-bottom: 60px;
 }
+.contact-us-container{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 24px;
+}
+
 .contact-us-title {
   font-family: var(--font-family);
   font-size: 32px;
@@ -10,18 +16,17 @@
   line-height: 1;
   letter-spacing: -0.02em;
   color: var(--main);
-  margin-bottom: 24px;
+  
 }
 .contact-us-text {
-  font-family: var(--font-family);
-  color: var(--contact-us-text);
-  font-family: Gilroy;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.28571;
-  letter-spacing: -0.02em;
-  margin-bottom: 28px;
+    font-family: var(--font-family);
+    color: var(--contact-us-text);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    margin-bottom: 28px;
 }
 .contact-us-wrap {
   display: flex;
@@ -30,12 +35,12 @@
 }
 
 .contact-us-form {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  border-radius: 30px;
-  background: var(--cards);
-  padding: 48px 28px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    border-radius: 30px;
+    background: var(--cards);
+    padding: 48px 28px;
 }
 
 .contact-us-lable {
@@ -142,30 +147,24 @@
   background-color: var(--background-img);
 }
 
-@media screen and (min-width: 320px) and (max-width: 374px) {
-  .container {
-    min-width: 320px;
-    max-width: 100%;
-  }
-}
+
 
 @media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-    padding: 0 32px;
-  }
 
   /* ---------Contact Us--------- */
-
-  .contact-us-section {
-    padding-top: 40px;
-    padding-bottom: 40px;
+.contact-us-section {
+    margin-bottom: 80px;
   }
+
+  .contact-us-container {
+    gap: 40px;
+  }
+
   .contact-us-title {
     font-size: 48px;
     line-height: 0.91667;
     letter-spacing: -0.02em;
-    margin-bottom: 40px;
+    
   }
   .contact-us-wrap {
     gap: 40px;
@@ -188,6 +187,7 @@
     font-size: 16px;
     line-height: 1.25;
     padding: 16px;
+    height: 90px;
   }
   .button {
     max-width: 160px;
@@ -201,9 +201,11 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    width: 1280px;
-    padding: 0 65px;
+  .contact-us-section {
+      margin-bottom: 100px;
+    }
+  .contact-us-container {
+gap: 40px;
   }
 
   /* --------Contact Us -------- */
