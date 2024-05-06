@@ -1,3 +1,6 @@
+* {
+  font-family: var(--font-family);
+}
 :root {
   --font-family: 'Gilroy', sans-serif;
   --main: #0c0c0c;
@@ -8,6 +11,10 @@
   --contact-us-text: rgba(12, 12, 12, 0.7);
   --button-hover: #1f3cd4;
   --background-img: lightgray;
+}
+
+body {
+  background-color: #fbfbfb;
 }
 
 h1,
@@ -70,6 +77,15 @@ img {
   width: 375px;
   padding: 0 20px;
   margin: 0 auto;
+  background-color: #fbfbfb;
+}
+
+:root {
+  --font-family: 'Gilroy', sans-serif;
+  --main: #0c0c0c;
+  --accent: #3350e9;
+  --background: #fbfbfb;
+  --cards: #f3f3f3;
 }
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
