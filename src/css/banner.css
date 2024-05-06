@@ -32,7 +32,7 @@
     font-weight: 600;
     font-size: 32px;
     color: #FBFBFB;
-    width: 279px;
+    max-width: 279px;
 }
 
 .ad-text-span {
