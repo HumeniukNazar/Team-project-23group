@@ -1,15 +1,13 @@
-
-
 .sale-container {
   display: flex;
   flex-direction: column;
   margin-bottom: 60px;
 }
-.mobile{
+.mobile {
   display: flex;
   flex-direction: column;
 }
-.sale-images{
+.sale-images {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -19,7 +17,7 @@
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
-  line-height: 1.0;
+  line-height: 1;
   letter-spacing: -0.02em;
   color: var(--main);
   margin-bottom: 24px;
@@ -32,7 +30,7 @@
   align-items: center;
 }
 .div-small-watch {
- width: 80px;
+  width: 80px;
 }
 .small-watch {
   display: flex;
@@ -43,6 +41,7 @@
   padding: 13px 14px;
   background: var(--cards);
 }
+
 .centralimage {
   display: flex;
   justify-content: center;
@@ -146,12 +145,11 @@
   letter-spacing: -0.02em;
   padding-bottom: 28px;
 }
-.tags{
+.tags {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
 }
-
 
 .tag-item {
   display: inline-block;
@@ -198,7 +196,7 @@
     margin-bottom: 40px;
     column-gap: 20px;
   }
-  .small-watch{
+  .small-watch {
     border: none;
   }
   .watch-img {
@@ -244,7 +242,7 @@
   }
   .yes {
     font-size: 20px;
-    line-height: 1.0;
+    line-height: 1;
     letter-spacing: -0.02em;
   }
   .sale-txt {
@@ -254,7 +252,7 @@
     padding-bottom: 40px;
     max-width: 584px;
   }
-  .tags{
+  .tags {
     width: 398px;
   }
   .tag-item {
@@ -275,7 +273,7 @@
   .sale-title {
     padding-bottom: 40px;
     font-size: 48px;
-    line-height: 0.9; 
+    line-height: 0.9;
     letter-spacing: -0.02em;
     margin-bottom: 0px;
     padding-left: 0px;
@@ -301,26 +299,27 @@
     padding: 0px;
     display: flex;
     justify-content: center;
-    align-items: center;}
+    align-items: center;
+  }
 
   .centralimage {
     max-width: 428px;
     height: 100%;
     margin-right: 40px;
   }
-  .sale-images{
+  .sale-images {
     max-height: 558px;
     display: flex;
     flex-direction: row;
     margin-bottom: 0px;
   }
-  .small-watch{
+  .small-watch {
     max-width: 100%;
     /* height: 100px; */
     border-radius: 20px;
     padding: 16px 18px;
-    background: var(--cards);  
-}
+    background: var(--cards);
+  }
   .bigwatch {
     width: 100%;
     height: 100%;
@@ -338,26 +337,27 @@
     max-width: 530px;
     width: 100%;
     padding-bottom: 0px;
-    padding: 60px 60px 50px;  
-    max-height: 558px;}
+    padding: 60px 60px 50px;
+    max-height: 558px;
+  }
   .carbon {
     width: 389px;
     font-size: 32px;
-    line-height: 1.125; 
+    line-height: 1.125;
     letter-spacing: -0.02em;
     margin-bottom: 0px;
   }
-  .euro-yes{
+  .euro-yes {
     width: 78px;
     height: 32px;
   }
-  .euro-no{
+  .euro-no {
     padding: 0px;
     width: 36px;
   }
-  .yes{
+  .yes {
     font-size: 20px;
-    line-height: 1.0; 
+    line-height: 1;
     letter-spacing: -0.02em;
     display: flex;
     text-align: center;
@@ -370,13 +370,15 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 1.25;
-    letter-spacing: -0.02em;  
+    letter-spacing: -0.02em;
     padding-bottom: 40px;
   }
- 
-  .tag-item{
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.28;
+
+  .tag-item {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.28;
   }
 }
+
+/* push */
