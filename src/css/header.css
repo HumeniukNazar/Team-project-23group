@@ -137,6 +137,7 @@
   flex-direction: column;
   gap: 24px;
   margin: 240px 64px 260px 63px;
+  margin-bottom: auto;
 }
 
 .modal-menu-link {
