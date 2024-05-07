@@ -115,7 +115,6 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
-  /* width: 279px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -290,12 +289,17 @@
     display: flex;
     justify-content: flex-start;
   }
+
+  .footer-menu-wrap {
+    padding-bottom: 28px;
+  }
+
   .footer-info-wrap {
     display: flex;
     justify-content: space-between;
   }
   .footer-info {
-    margin-top: 20px;
+    margin-top: 28px;
     font-size: 14px;
     line-height: 1.29;
   }
