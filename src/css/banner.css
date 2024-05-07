@@ -68,7 +68,7 @@
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .container-ad {
     width: 335px;
-    height: 363px;
+    min-height: 363px;
   }
   .link-wrap:hover,
   .link-wrap:focus {
@@ -89,7 +89,7 @@
   }
 
   .ad-text {
-    width: 576px;
+    max-width: 576px;
     font-size: 48px;
     line-height: 0.96;
     letter-spacing: -0.02em;
@@ -121,7 +121,7 @@
   }
 
   .ad-text {
-    width: 690px;
+    max-width: 690px;
     line-height: 0.94;
     letter-spacing: -0.02em;
   }
